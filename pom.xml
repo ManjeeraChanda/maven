@@ -186,7 +186,7 @@
 			<layout>default</layout>
 		</repository>
 		<repository>
-			<id>mulesoft-releases</id>
+			<id>MuleRepository</id>
 			<name>MuleSoft Releases Repository</name>
 			<url>http://repository.mulesoft.org/releases/</url>
 			<layout>default</layout>
