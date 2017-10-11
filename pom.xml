@@ -65,6 +65,7 @@
         <deploymentType>standalone</deploymentType>
         
         <muleHome>C:\Users\chand\Desktop\Mule\mule-runtime-bundle-3.8\mule-3.8.3\bin\mule.bat</muleHome>
+        <serverGroup>manjeera</serverGroup>
     </configuration>
     <executions>
         <execution>
