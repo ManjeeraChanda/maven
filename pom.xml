@@ -59,18 +59,23 @@
 			</plugin>
 			<plugin>
     <groupId>org.mule.tools.maven</groupId>
-    <artifactId>mule-maven-plugin</artifactId>
-    <version>2.0</version>
+    <artifactId>mule-mmc-rest-plugin</artifactId>
+    <version>1.1.1-SNAPSHOT</version>
     <configuration>
-        <deploymentType>standalone</deploymentType>
-        
-        <muleHome>C:\Users\chand\Desktop\Mule\mule-runtime-bundle-3.8\mule-3.8.3\bin\mule.bat</muleHome>
+     <muleApiUrl>http://localhost:8585/mmc-3.8.1/api</muleApiUrl>
+            <name>mule-mmc-rest-plugin</name>
+            <username>admin</username>
+            <password>admin</password>
+            <appDirectory>C:\Users\chand\AnypointStudio\workspace\maven\src\main\app</appDirectory>
+           
+            <version>3.8.2</version>
+       
         <serverGroup>manjeera</serverGroup>
     </configuration>
     <executions>
         <execution>
-            <id>deploy</id>
-            <phase>deploy</phase>
+            <id>mule-deploy</id>
+            <phase>install</phase>
             <goals>
                 <goal>deploy</goal>
             </goals>
