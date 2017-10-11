@@ -60,10 +60,11 @@
 			<plugin>
     <groupId>org.mule.tools.maven</groupId>
     <artifactId>mule-maven-plugin</artifactId>
-    <version>1.2</version>
+    <version>2.0</version>
     <configuration>
         <deploymentType>standalone</deploymentType>
         <muleVersion>3.8.2</muleVersion>
+        <muleHome>C:\Users\chand\Desktop\Mule\mule-runtime-bundle-3.8\mule-3.8.3\bin</muleHome>
     </configuration>
     <executions>
         <execution>
