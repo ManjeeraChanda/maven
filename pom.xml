@@ -64,7 +64,7 @@
     <configuration>
         <deploymentType>standalone</deploymentType>
         <muleVersion>3.8.2</muleVersion>
-        <muleHome>C:\Users\chand\Desktop\Mule\mule-runtime-bundle-3.8\mule-3.8.3\bin</muleHome>
+        <muleHome>C:\Users\chand\Desktop\Mule\mule-runtime-bundle-3.8\mule-3.8.3\bin\mule.bat</muleHome>
     </configuration>
     <executions>
         <execution>
