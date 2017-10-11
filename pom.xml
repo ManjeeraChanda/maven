@@ -180,12 +180,7 @@
 	</dependencies>
 
 	<repositories>
-		<repository>
-			<id>Nexus</id>
-			<name>Nexus Public Repository</name>
-			<url>https://repository-master.mulesoft.org/nexus/content/groups/public/</url>
-			<layout>default</layout>
-		</repository>
+		
 		<repository>
 			<id>Central</id>
 			<name>Central</name>
@@ -198,18 +193,7 @@
 			<url>http://repository.mulesoft.org/releases/</url>
 			<layout>default</layout>
 		</repository>
-		<repository>
-          <id>MuleRepository</id>
-           <name>MuleRepository</name>
-           <url>https://repository.mulesoft.org/nexus-ee/content/repositories/releases-ee/</url>
-           <layout>default</layout>
-           <releases>
-             <enabled>true</enabled>
-           </releases>
-           <snapshots>
-             <enabled>true</enabled>
-           </snapshots>
-       </repository>
+		
 	</repositories>
 	<pluginRepositories>
 		<pluginRepository>
@@ -218,7 +202,7 @@
 			<layout>default</layout>
 			<url>http://repository.mulesoft.org/releases/</url>
 			<snapshots>
-				<enabled>false</enabled>
+				<enabled>true</enabled>
 			</snapshots>
 		</pluginRepository>
 		<pluginRepository>
