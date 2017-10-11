@@ -182,7 +182,7 @@
 	<repositories>
 		<repository>
 			<id>mule-public</id>
-			<url>https://repository.mulesoft.org/nexus/content/repositories/public </url>
+			<url>https://repository.mulesoft.org/nexus/content/repositories/releases</url>
 			<layout>default</layout>
 		</repository>
 		<repository>
