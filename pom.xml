@@ -60,7 +60,7 @@
 			<plugin>
     <groupId>org.mule.tools.maven</groupId>
     <artifactId>mule-maven-plugin</artifactId>
-    <version>2.2.1</version>
+    <version>1.2</version>
     <configuration>
         <deploymentType>standalone</deploymentType>
         <muleVersion>3.8.2</muleVersion>
