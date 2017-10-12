@@ -27,7 +27,7 @@
 				<version>2.0</version>
 				<configuration>
 					<deploymentType>cloudhub</deploymentType>
-					<muleVersion>3.8.2</muleVersion>
+					<muleVersion>3.8.5</muleVersion>
 					<username>manjeeraChanda</username>
 					<password>Chitti249</password>
 					<workerType>Micro</workerType>
