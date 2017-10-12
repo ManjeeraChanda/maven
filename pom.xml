@@ -201,6 +201,12 @@
 			<version>${mule.version}</version>
 			<scope>provided</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.mule.tools.maven</groupId>
+			<artifactId>mule-app-maven-plugin</artifactId>
+			<version>1.2</version>
+		</dependency>
+
 	</dependencies>
 
 	<repositories>
